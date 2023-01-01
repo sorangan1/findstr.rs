@@ -1,6 +1,5 @@
 # findstr.rs
 
-Windows CMD:
 ```cmd
 > rust_findstr.exe {query} {file-path}
 ```
@@ -9,3 +8,10 @@ Windows CMD:
 `file-path`: The path of the file where you want to search.
 
 ## Build
+
+While in the root folder, type:
+```cmd
+> cargo build --release
+```
+
+You'll find the .exe in /target/release/rust_findstr.exe
